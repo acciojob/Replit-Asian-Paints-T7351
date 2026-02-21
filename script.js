@@ -1,7 +1,7 @@
     const change = document.querySelector('#change_button');
     const reset = document.querySelector('#Reset');
 
-    const container = document.querySelector("#grid-container");
+    const container = document.querySelector(".grid-container");
     for (let i = 1; i <= 9; i++) { 
         const div = document.createElement("div");
         div.className = "grid-item";                 
