@@ -1,5 +1,5 @@
     const change = document.querySelector('#change_button');
-    const reset = document.querySelector('#Reset');
+    const reset = document.querySelector('#reset_button');
 
     const container = document.querySelector(".grid-container");
     for (let i = 1; i <= 9; i++) { 
