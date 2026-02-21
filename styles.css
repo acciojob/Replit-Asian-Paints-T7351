@@ -13,7 +13,7 @@
             grid-template-rows: repeat(3,1fr);
         }
         .grid-item{
-            background-color: grey;
+            background-color: "transparent";
             border: 1px solid white;
             display:flex;
             justify-content:center;

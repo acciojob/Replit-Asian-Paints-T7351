@@ -7,7 +7,7 @@
         div.className = "grid-item";                 
         div.id = i;                                  
         div.textContent = i;                         
-        container.appendChild(div);
+        container.appendChild(div);https://www.svgrepo.com/show/345221/three-dots.svg
     }
 
     change.addEventListener(('click'), (e)=>{
@@ -26,6 +26,6 @@
 
     reset.addEventListener(('click'), ()=>{
         document.querySelectorAll('.grid-item').forEach(item=>{
-            item.style.backgroundColor="grey";
+            item.style.backgroundColor= "transparent";
         });
     })
